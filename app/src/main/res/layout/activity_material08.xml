@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85b9f7"
+    tools:context=".Material08">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#daa986"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cuadro2"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#8c8fa6dc"
+            android:text="EL RAPTO DE LAS SABINAS"
+            android:textAlignment="center"
+            android:textColor="#060679"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/autor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#8c8fa6dc"
+            android:text="JAQUES-LOUIS DAVID"
+            android:textAlignment="center"
+            android:textColor="#ec1206"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
